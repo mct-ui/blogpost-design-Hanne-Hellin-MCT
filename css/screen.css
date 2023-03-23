@@ -53,9 +53,6 @@ html {
   font-family: "droid-serif", Helvetica, arial, sans-serif;
   color: hsl(198.0786026201, 10%, 30%);
   scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
-
- -moz-osx-font-smoothing:grayscale;
 }
 
 /*
@@ -93,6 +90,10 @@ h2 {
   font-size: 1.423828125rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.s-content * + h2 {
+  margin-top: 3rem;
 }
 
 h3 {

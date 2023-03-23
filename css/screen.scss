@@ -258,6 +258,13 @@ h2 {
   margin-bottom: $space-m;
 }
 
+.s-content * + h2 {
+
+  margin-top: $space-xl;
+ 
+ }
+ 
+
 h3 {
   font-weight: 700;
   font-size: $ms1;
