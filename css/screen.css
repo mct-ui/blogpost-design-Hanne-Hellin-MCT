@@ -336,6 +336,31 @@ a:active {
 /*
     Components: Author
 */
+.c-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+.c-author__image {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+}
+.c-author__name, .c-author__meta {
+  margin-bottom: 0;
+}
+.c-author__meta {
+  font-size: 0.8888888889rem;
+  font-family: "Inter Web", Times, serif;
+  line-height: 1.5rem;
+  margin-top: 0.25rem;
+}
+.c-author__name {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 /*
     Components: Quote
 */

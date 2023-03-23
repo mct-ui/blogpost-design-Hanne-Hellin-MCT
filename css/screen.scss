@@ -527,6 +527,40 @@ a:active {
     Components: Author
 */
 
+.c-author{
+  display: flex;
+  align-items: center;
+  margin-bottom: $space-m;
+  gap: $space-s;
+
+  &__image{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+  }
+
+
+  &__name, &__meta{
+    margin-bottom: 0;
+  }
+
+  &__meta {
+    font-size: $ms-1;
+    font-family: $font-family-secondary;
+    line-height: $space-m;
+    margin-top: $space-xxs;
+   }
+
+   &__name {
+
+    font-size: $ms0;
+   
+    line-height: $space-m;
+   
+   }
+   
+}
+
 /*
     Components: Quote
 */
