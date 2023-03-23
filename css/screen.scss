@@ -381,9 +381,21 @@ a:active {
   margin-right: calc($grid-gutter / -2);
 }
 
+// .o-layout--gutter {
+//   padding-left: -12px;
+//   padding-right: -12px;
+// }
+
+
+// .o-layout--gutter > .o-layout__item{
+//   padding-left: 12px;
+//   padding-right: 12px;
+// }
+
 .o-layout--gutter > .o-layout__item {
   padding-left: calc($grid-gutter / 2);
   padding-right: calc($grid-gutter / 2);
+  
 }
 
 .o-layout--gutter-s {
@@ -523,6 +535,9 @@ a:active {
     ---
     max-width utility classes
 */
+
+
+
 
 .u-max-width-s {
   max-width: calc(600 / 16 * 1rem);
